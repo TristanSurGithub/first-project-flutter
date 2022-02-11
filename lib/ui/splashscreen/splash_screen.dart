@@ -30,6 +30,6 @@ class SplashScreen extends StatelessWidget {
         seconds: 5,
       ),
     );
-    Navigator.of(context).pushNamed('/counter');
+    Navigator.of(context).pushNamed('/albums');
   }
 }
